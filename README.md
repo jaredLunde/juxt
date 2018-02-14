@@ -9,8 +9,8 @@ _____
 
 
 ## Usage
-### `juxt (fn<function>, fn<function>...)`
-***returns*** `{array}`
+#### `juxt (fn<function>, fn<function>...)`
+- **returns `{array}`** 
 
 ```js
 import juxt from '@jaredlunde/juxt'
