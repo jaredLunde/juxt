@@ -5,12 +5,15 @@ Creates a function that calls multiple functions with the same arguments.
 Takes several functions and returns a function that applies its arguments to
 each of those functions. An `array` of the results is returned.
 
+### Installation
+```yarn add @jaredlunde/juxt``` or ```npm i @jaredlunde/juxt```
+
 _____
 
 
 ## Usage
 #### `juxt (fn<function>, fn<function>...)`
-- **returns `{array}`** 
+- **returns `{array}`**
 
 ```js
 import juxt from '@jaredlunde/juxt'
