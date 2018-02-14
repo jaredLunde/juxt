@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "3.0.0",
   "main": "commonjs/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
@@ -26,7 +26,7 @@
     "juxtaposition function",
     "call multiple functions with same arguments"
   ],
-  "name": "@jaredlunde/juxt",
+  "name": "juxt",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.40",
     "@babel/core": "^7.0.0-beta.40",

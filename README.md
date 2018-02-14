@@ -6,7 +6,7 @@ Takes several functions and returns a function that applies its arguments to
 each of those functions. An `array` of the results is returned.
 
 ### Installation
-```yarn add @jaredlunde/juxt``` or ```npm i @jaredlunde/juxt```
+```yarn add juxt``` or ```npm i juxt```
 
 _____
 
@@ -16,7 +16,7 @@ _____
 - **returns `{array}`**
 
 ```js
-import juxt from '@jaredlunde/juxt'
+import juxt from 'juxt'
 
 
 const incr = val => val + 1
