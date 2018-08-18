@@ -2,19 +2,16 @@
   "env": {
     "commonjs": {
       "presets": [
-        "@babel/env",
-        "@babel/stage-0"
+        ["@babel/env", {"useBuiltIns": "usage", "loose": true}]
       ],
       "plugins": [
-        "@babel/transform-runtime",
         "closure-elimination",
         "dev-expression"
       ]
     },
     "es": {
       "presets": [
-        ["@babel/env", {"modules": false}],
-        "@babel/stage-0"
+        ["@babel/env", {"useBuiltIns": "usage", "modules": false}]
       ],
       "plugins": [
         "closure-elimination",
